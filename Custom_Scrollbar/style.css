@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: crimson;
+  position: relative;
+}
+.go-back{
+  position: fixed;
+  top: 7%;
+  right: 3%;
+
+}
+.go-back a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+
+}
+.go-back a:hover{
+  color: #21d4fd;
+
+}
+.card {
+  width: 700px;
+  background: #ccc;
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+  line-height: 28px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#21d4fd, #b721ff);
+  border-radius: 100px;
+}
