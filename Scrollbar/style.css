@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #fff;
+  position: relative;
+}
+.go-back{
+  position: absolute;
+  top: 10%;
+  right: 3%;
+
+}
+.go-back a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+
+}
+.go-back a:hover{
+  color: #fd2121;
+
+}
+.scroll-container {
+  background: rgb(7, 7, 7);
+  width: 25rem;
+  padding: 30px;
+}
+
+.scroll-div {
+  width: 400px;
+  height: 500px;
+  background: rgb(7, 7, 7);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  padding: 20px;
+}
