@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+.go-back{
+  position: absolute;
+  top: 10%;
+  right: 3%;
+
+}
+.go-back a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+
+}
+.go-back a:hover{
+  color: #fd2121;
+
+}
+p {
+  font-size: 3rem;
+}
+
+.js {
+  color: yellow;
+}
+
+.typed-text {
+  color: #20c20e;
+}
+
+.cursor {
+  background: #20c20e;
+}
