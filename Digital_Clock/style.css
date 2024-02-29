@@ -6,8 +6,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+.go-back{
+  position: absolute;
+  top: 10%;
+  right: 3%;
 
+}
+.go-back a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+
+}
+.go-back a:hover{
+  color: #00ddff;
+
+}
 .clock {
   color: #20c20e;
   font-size: 60px;
